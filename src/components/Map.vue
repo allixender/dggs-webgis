@@ -291,7 +291,7 @@ export default {
 
             try {
               hexIDs = await this.$axios.get(
-                "https://dggs-api-bozea3cspa-ew.a.run.app/dggs-api/dggs/" +
+                "https://aoraki.domenis.ut.ee/dggs-api/dggs/" +
                   ref.dggsLayerUrl(layer.crs, layer.id) +
                   "/zones",
                 {

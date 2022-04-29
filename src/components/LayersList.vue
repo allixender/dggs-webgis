@@ -404,7 +404,7 @@ export default {
   data() {
     return {
       collectionsAPI:
-        "https://dggs-api-bozea3cspa-ew.a.run.app/dggs-api/collections",
+        "https://aoraki.domenis.ut.ee/dggs-api/collections",
       layersAll: staticLayers,
       layersDGGS: [],
       layerSelectedRaster: null,
